@@ -19,6 +19,23 @@ Consider setting up isolated environment so you can avoid the need to use bundle
 rvm use 1.9.2@isolated --create && gem install bundler && bundle install
 ```
 
+## Gems
+
+Gems are awesome, but they don't come for free. Below are a bunch of examples showing execution time for a simple script with the following format:
+
+```
+require "gem_name"
+```
+
+Results:
+
+```
+time ruby none.rb           0.01s
+time ruby rack.rb           0.23s
+time ruby active_support.rb 1.54s
+time ruby rails.rb          2.18s
+```
+
 ## Rails
 
 Rails is woefully slow (especially on 1.9.2).
