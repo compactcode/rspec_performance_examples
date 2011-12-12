@@ -23,6 +23,6 @@ rvm use 1.9.2@isolated --create && gem install bundler && bundle install
 
 Rails is woefully slow (especially on 1.9.2).
 
-There are a bunch of examples for rails in the stock_standard_rails directory.
+There are a bunch of examples for rails in the [rails](https://github.com/compactcode/rspec_performance_examples/tree/master/rails) directory.
 
-I highly recommend watching this awesome screencast by [https://www.destroyallsoftware.com/screencasts/catalog/fast-tests-with-and-without-rails](Destroy All Software)
+I highly recommend watching this awesome screencast by [Destroy All Software](https://www.destroyallsoftware.com/screencasts/catalog/fast-tests-with-and-without-rails)
