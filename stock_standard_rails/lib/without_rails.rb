@@ -1,0 +1,2 @@
+class WithoutRails
+end
